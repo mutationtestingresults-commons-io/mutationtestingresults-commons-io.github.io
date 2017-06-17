@@ -1,0 +1,363 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>ProxyInputStream.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_59'>59</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_59'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::beforeRead &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_61'>61</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_61'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CountingInputStreamTest.testEOF1(org.apache.commons.io.input.CountingInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CountingInputStreamTest.testEOF1(org.apache.commons.io.input.CountingInputStreamTest)</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::afterRead &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_62'>62</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_62'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.AutoCloseInputStreamTest.testClose(org.apache.commons.io.input.AutoCloseInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_64'>64</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_64'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.TaggedInputStreamTest.testBrokenStream(org.apache.commons.io.input.TaggedInputStreamTest)</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_65'>65</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_65'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_78'>78</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_78'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::beforeRead &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_80'>80</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_80'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CountingInputStreamTest.testEOF2(org.apache.commons.io.input.CountingInputStreamTest)</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::afterRead &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_81'>81</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_81'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CountingInputStreamTest.testEOF2(org.apache.commons.io.input.CountingInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_83'>83</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_83'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::handleIOException &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_84'>84</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_84'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_99'>99</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_99'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::beforeRead &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_101'>101</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_101'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CountingInputStreamTest.testEOF3(org.apache.commons.io.input.CountingInputStreamTest)</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::afterRead &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_102'>102</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_102'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CountingInputStreamTest.testEOF3(org.apache.commons.io.input.CountingInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_104'>104</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_104'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::handleIOException &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_105'>105</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_105'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_118'>118</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_118'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>org.apache.commons.io.input.CountingInputStreamTest.testSkipping(org.apache.commons.io.input.CountingInputStreamTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/io/input/ProxyInputStream::skip &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_120'>120</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_120'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::handleIOException &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_121'>121</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_121'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/input/ProxyInputStream::skip &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_133'>133</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_133'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>available<br/><b>Killed by : </b>org.apache.commons.io.input.BOMInputStreamTest.testAvailableWithBOM(org.apache.commons.io.input.BOMInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_135'>135</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_135'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>available<br/><b>Killed by : </b>org.apache.commons.io.input.TaggedInputStreamTest.testBrokenStream(org.apache.commons.io.input.TaggedInputStreamTest)</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_136'>136</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_136'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>available<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_147'>147</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_147'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>org.apache.commons.io.input.BOMInputStreamTest.testClose(org.apache.commons.io.input.BOMInputStreamTest)</span></span> removed call to java/io/InputStream::close &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_149'>149</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_149'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>org.apache.commons.io.input.TaggedInputStreamTest.testBrokenStream(org.apache.commons.io.input.TaggedInputStreamTest)</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_159'>159</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_159'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>mark<br/><b>Killed by : </b>org.apache.commons.io.input.TeeInputStreamTest.testMarkReset(org.apache.commons.io.input.TeeInputStreamTest)</span></span> removed call to java/io/InputStream::mark &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_169'>169</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_169'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reset<br/><b>Killed by : </b>org.apache.commons.io.input.TeeInputStreamTest.testMarkReset(org.apache.commons.io.input.TeeInputStreamTest)</span></span> removed call to java/io/InputStream::reset &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_171'>171</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_171'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reset<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/input/ProxyInputStream::handleIOException &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@25ced8a5_181'>181</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@25ced8a5_181'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>markSupported<br/><b>Killed by : </b>org.apache.commons.io.input.BOMInputStreamTest.testMarkResetAfterReadWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.io.input.CountingInputStreamTest.testZeroLength1(org.apache.commons.io.input.CountingInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testEmptyBufferWithBOM(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadXmlWithBOMUcs2(org.apache.commons.io.input.BOMInputStreamTest) (25 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testMarkResetBeforeReadWithBOM(org.apache.commons.io.input.BOMInputStreamTest) (38 ms)</li><li>org.apache.commons.io.input.TeeInputStreamTest.testMarkReset(org.apache.commons.io.input.TeeInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.TeeInputStreamTest.testReadToArray(org.apache.commons.io.input.TeeInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testGetBOMFirstThenRead(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testLeadingNonBOMSingleRead(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderUtilitiesTest.testCalculateHttpEncoding(org.apache.commons.io.input.XmlStreamReaderUtilitiesTest) (2 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testLargeBufferWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testSmallBufferWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadWithBOMUtf32Le(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CountingInputStreamTest.testEOF2(org.apache.commons.io.input.CountingInputStreamTest) (0 ms)</li><li>org.apache.commons.io.CopyUtilsTest.testCopy_inputStreamToOutputStream(org.apache.commons.io.CopyUtilsTest) (1 ms)</li><li>org.apache.commons.io.CopyUtilsTest.testCopy_readerToOutputStream(org.apache.commons.io.CopyUtilsTest) (1 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_readerToOutputStream(org.apache.commons.io.IOUtilsCopyTestCase) (3 ms)</li><li>org.apache.commons.io.input.SwappedDataInputStreamTest.testReadBoolean(org.apache.commons.io.input.SwappedDataInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testLargeBufferWithBOM(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawContent(org.apache.commons.io.input.XmlStreamReaderTest) (1 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadTwiceWithBOM(org.apache.commons.io.input.BOMInputStreamTest) (7 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testSkipWithBOM(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.CopyUtilsTest.copy_inputStreamToWriter(org.apache.commons.io.CopyUtilsTest) (1 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testAvailableWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawNoBomUtf16BE(org.apache.commons.io.input.XmlStreamReaderTest) (5 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawNoBomUtf16LE(org.apache.commons.io.input.XmlStreamReaderTest) (5 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.skipReturnValueWithBom(org.apache.commons.io.input.BOMInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.AutoCloseInputStreamTest.testRead(org.apache.commons.io.input.AutoCloseInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.AutoCloseInputStreamTest.testReadBufferOffsetLength(org.apache.commons.io.input.AutoCloseInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadXmlWithoutBOMUtf32Be(org.apache.commons.io.input.BOMInputStreamTest) (3 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawNoBomIso8859_1(org.apache.commons.io.input.XmlStreamReaderTest) (11 ms)</li><li>org.apache.commons.io.input.CountingInputStreamTest.testResetting(org.apache.commons.io.input.CountingInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testSmallBufferWithBOM(org.apache.commons.io.input.BOMInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawNoBomUtf32BE(org.apache.commons.io.input.XmlStreamReaderTest) (4 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawBomUtf16(org.apache.commons.io.input.XmlStreamReaderTest) (9 ms)</li><li>org.apache.commons.io.input.ObservableInputStreamTest.testDataBytesCalled(org.apache.commons.io.input.ObservableInputStreamTest) (4 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadXmlWithoutBOMUtf32Le(org.apache.commons.io.input.BOMInputStreamTest) (5 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawNoBomUtf8(org.apache.commons.io.input.XmlStreamReaderTest) (6 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testMarkResetBeforeReadWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadXmlWithBOMUtf32Le(org.apache.commons.io.input.BOMInputStreamTest) (2 ms)</li><li>org.apache.commons.io.input.MessageDigestCalculatingInputStreamTest.test(org.apache.commons.io.input.MessageDigestCalculatingInputStreamTest) (8 ms)</li><li>org.apache.commons.io.input.SwappedDataInputStreamTest.testReadFully(org.apache.commons.io.input.SwappedDataInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadWithBOMUtf16Le(org.apache.commons.io.input.BOMInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.TeeInputStreamTest.testReadOneByte(org.apache.commons.io.input.TeeInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.AutoCloseInputStreamTest.testReadBuffer(org.apache.commons.io.input.AutoCloseInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadWithBOMInclude(org.apache.commons.io.input.BOMInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawBomUtf8(org.apache.commons.io.input.XmlStreamReaderTest) (36 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderUtilitiesTest.testCalculateRawEncodingNoBOM(org.apache.commons.io.input.XmlStreamReaderUtilitiesTest) (1 ms)</li><li>org.apache.commons.io.input.TaggedInputStreamTest.testNormalStream(org.apache.commons.io.input.TaggedInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.TaggedInputStreamTest.testBrokenStream(org.apache.commons.io.input.TaggedInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderUtilitiesTest.testCalculateRawEncodingStandard(org.apache.commons.io.input.XmlStreamReaderUtilitiesTest) (2 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_readerToWriter_nullOut(org.apache.commons.io.IOUtilsCopyTestCase) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.CountingInputStreamTest.testZeroLength3(org.apache.commons.io.input.CountingInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CloseShieldInputStreamTest.testClose(org.apache.commons.io.input.CloseShieldInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadXmlWithBOMUtf32Be(org.apache.commons.io.input.BOMInputStreamTest) (3 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testGetBOMFirstThenReadInclude(org.apache.commons.io.input.BOMInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testEncodingAttributeXML(org.apache.commons.io.input.XmlStreamReaderTest) (1 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadWithBOMUtf32Be(org.apache.commons.io.input.BOMInputStreamTest) (3 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_inputStreamToWriter(org.apache.commons.io.IOUtilsCopyTestCase) (1 ms)</li><li>org.apache.commons.io.input.TaggedInputStreamTest.testOtherException(org.apache.commons.io.input.TaggedInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testHttpContent(org.apache.commons.io.input.XmlStreamReaderTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadSmall(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderUtilitiesTest.testCalculateHttpEncodingUtf32(org.apache.commons.io.input.XmlStreamReaderUtilitiesTest) (2 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadXmlWithBOMUtf8(org.apache.commons.io.input.BOMInputStreamTest) (2 ms)</li><li>org.apache.commons.io.input.CountingInputStreamTest.testEOF3(org.apache.commons.io.input.CountingInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderUtilitiesTest.testCalculateRawEncodingAdditonalUTF16(org.apache.commons.io.input.XmlStreamReaderUtilitiesTest) (1 ms)</li><li>org.apache.commons.io.input.TaggedInputStreamTest.testEmptyStream(org.apache.commons.io.input.TaggedInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.AutoCloseInputStreamTest.testClose(org.apache.commons.io.input.AutoCloseInputStreamTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_inputStreamToOutputStreamWithBufferSize(org.apache.commons.io.IOUtilsCopyTestCase) (12 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadEmpty(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawNoBomUtf32LE(org.apache.commons.io.input.XmlStreamReaderTest) (7 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testMarkResetAfterReadWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawNoBomUsAscii(org.apache.commons.io.input.XmlStreamReaderTest) (2 ms)</li><li>org.apache.commons.io.input.TeeInputStreamTest.testReadToArrayWithOffset(org.apache.commons.io.input.TeeInputStreamTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_inputStreamToWriter_Encoding_nullEncoding(org.apache.commons.io.IOUtilsCopyTestCase) (1 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadTwiceWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest) (2 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderUtilitiesTest.testCalculateRawEncodingStandardUtf32(org.apache.commons.io.input.XmlStreamReaderUtilitiesTest) (1 ms)</li><li>org.apache.commons.io.CopyUtilsTest.copy_readerToWriter(org.apache.commons.io.CopyUtilsTest) (34 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testClose(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_inputStreamToWriter_Encoding(org.apache.commons.io.IOUtilsCopyTestCase) (1 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadXmlWithBOMUtf16Be(org.apache.commons.io.input.BOMInputStreamTest) (3 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadWithBOMUtf16Be(org.apache.commons.io.input.BOMInputStreamTest) (9 ms)</li><li>org.apache.commons.io.input.CountingInputStreamTest.testZeroLength2(org.apache.commons.io.input.CountingInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CountingInputStreamTest.testLargeFiles_IO84(org.apache.commons.io.input.CountingInputStreamTest) (95 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_inputStreamToOutputStream(org.apache.commons.io.IOUtilsCopyTestCase) (1 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.skipReturnValueWithoutBom(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CountingInputStreamTest.testCounting(org.apache.commons.io.input.CountingInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.TeeInputStreamTest.testReadEverything(org.apache.commons.io.input.TeeInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testSkipWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.ObservableInputStreamTest.testDataByteCalled(org.apache.commons.io.input.ObservableInputStreamTest) (7 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadXmlWithBOMUtf16Le(org.apache.commons.io.input.BOMInputStreamTest) (11 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_readerToOutputStream_Encoding_nullEncoding(org.apache.commons.io.IOUtilsCopyTestCase) (1 ms)</li><li>org.apache.commons.io.input.CountingInputStreamTest.testSkipping(org.apache.commons.io.input.CountingInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderUtilitiesTest.testCalculateRawEncodingAdditonalUTF32(org.apache.commons.io.input.XmlStreamReaderUtilitiesTest) (0 ms)</li><li>org.apache.commons.io.input.CountingInputStreamTest.testEOF1(org.apache.commons.io.input.CountingInputStreamTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_readerToOutputStream_Encoding(org.apache.commons.io.IOUtilsCopyTestCase) (12 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testLeadingNonBOMBufferedRead(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_readerToWriter(org.apache.commons.io.IOUtilsCopyTestCase) (1 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawBomUtf32(org.apache.commons.io.input.XmlStreamReaderTest) (6 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadWithBOMUtf8(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testReadWithMultipleBOM(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawNoBomCp1047(org.apache.commons.io.input.XmlStreamReaderTest) (35 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testAvailableWithBOM(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.TeeInputStreamTest.testSkip(org.apache.commons.io.input.TeeInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testHttp(org.apache.commons.io.input.XmlStreamReaderTest) (145 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testEmptyBufferWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.BOMInputStreamTest.testMarkResetAfterReadWithBOM(org.apache.commons.io.input.BOMInputStreamTest) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

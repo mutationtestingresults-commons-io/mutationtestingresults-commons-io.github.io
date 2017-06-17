@@ -1,0 +1,483 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>ProxyWriter.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_55'>55</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_55'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::beforeWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_57'>57</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_57'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::afterWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_59'>59</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_59'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_append_char(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to org/apache/commons/io/output/ProxyWriter::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_61'>61</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_61'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/output/ProxyWriter::append to ( if (x != null) null else throw new RuntimeException ) &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_76'>76</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_76'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::beforeWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_78'>78</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_78'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::afterWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_80'>80</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_80'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_append_charSequence_offset(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to org/apache/commons/io/output/ProxyWriter::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_82'>82</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_82'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/output/ProxyWriter::append to ( if (x != null) null else throw new RuntimeException ) &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_96'>96</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_96'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.nullCharSequencec(org.apache.commons.io.output.ProxyWriterTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_100'>100</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_100'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::beforeWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_102'>102</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_102'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::afterWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_104'>104</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_104'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_append_charSequence(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to org/apache/commons/io/output/ProxyWriter::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_106'>106</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_106'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/output/ProxyWriter::append to ( if (x != null) null else throw new RuntimeException ) &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_117'>117</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_117'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::beforeWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_118'>118</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_118'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.writeInt(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to java/io/Writer::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_119'>119</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_119'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::afterWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_121'>121</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_121'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_write_int(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to org/apache/commons/io/output/ProxyWriter::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_134'>134</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_134'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.nullCharArray(org.apache.commons.io.output.ProxyWriterTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_138'>138</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_138'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::beforeWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_139'>139</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_139'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.writeCharArray(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to java/io/Writer::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_140'>140</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_140'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::afterWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_142'>142</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_142'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_write_char_array(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to org/apache/commons/io/output/ProxyWriter::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_156'>156</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_156'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::beforeWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_157'>157</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_157'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.writeCharArrayPartial(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to java/io/Writer::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_158'>158</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_158'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::afterWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_160'>160</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_160'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_write_offset_char_array(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to org/apache/commons/io/output/ProxyWriter::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_173'>173</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_173'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.nullString(org.apache.commons.io.output.ProxyWriterTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_177'>177</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_177'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::beforeWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_178'>178</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_178'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.writeString(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to java/io/Writer::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_179'>179</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_179'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::afterWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_181'>181</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_181'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_write_string(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to org/apache/commons/io/output/ProxyWriter::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_195'>195</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_195'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::beforeWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_196'>196</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_196'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.writeStringPartial(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to java/io/Writer::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_197'>197</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_197'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyWriter::afterWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_199'>199</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_199'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_write_string_offset(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to org/apache/commons/io/output/ProxyWriter::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_210'>210</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_210'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>flush<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_flush(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to java/io/Writer::flush &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_212'>212</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_212'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>flush<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_flush(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to org/apache/commons/io/output/ProxyWriter::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_223'>223</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_223'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_close(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to java/io/Writer::close &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7dda2de_225'>225</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7dda2de_225'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_close(org.apache.commons.io.output.ProxyWriterTest)</span></span> removed call to org/apache/commons/io/output/ProxyWriter::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.io.output.ProxyWriterTest.appendCharSequence_with_offset(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.writeInt(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.appendChar(org.apache.commons.io.output.ProxyWriterTest) (1 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_append_charSequence(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.nullString(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.writeStringPartial(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.writeCharArrayPartial(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_write_char_array(org.apache.commons.io.output.ProxyWriterTest) (1 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.writeString(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_append_charSequence_offset(org.apache.commons.io.output.ProxyWriterTest) (1 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.appendCharSequence(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_close(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.nullCharSequencec(org.apache.commons.io.output.ProxyWriterTest) (1 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_flush(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_write_int(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_append_char(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.writeCharArray(org.apache.commons.io.output.ProxyWriterTest) (1 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.nullCharArray(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_write_string_offset(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_write_offset_char_array(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.exceptions_in_write_string(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

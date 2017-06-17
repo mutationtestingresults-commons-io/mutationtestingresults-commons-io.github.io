@@ -1,0 +1,433 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>CharSequenceInputStream.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_68'>68</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_68'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_Loop_UTF16(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testReadZero_EmptyString(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_124'>124</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_124'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>fillBuffer<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSingleByteRead_UTF16(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_125'>125</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_125'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>fillBuffer<br/><b>Killed by : </b>none</span></span> removed call to java/nio/charset/CoderResult::throwException &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_132'>132</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_132'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testReadZero_EmptyString(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_135'>135</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_135'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testReadZero_EmptyString(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testReadZero_EmptyString(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testReadZero_EmptyString(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_139'>139</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_139'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testReadZero_EmptyString(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_140'>140</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_140'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testReadZero_EmptyString(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_142'>142</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_142'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testBufferedRead_RequiredCharset(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_143'>143</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_143'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_146'>146</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_146'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; TIMED_OUT</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_147'>147</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_147'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_150'>150</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_150'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_151'>151</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_151'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_152'>152</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_152'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_154'>154</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_154'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/input/CharSequenceInputStream::fillBuffer &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_155'>155</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_155'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testBufferedRead_RequiredCharset(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> <p class='TIMED_OUT'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_160'>160</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_160'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testBufferedRead_RequiredCharset(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_166'>166</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_166'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSingleByteRead_UTF16(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_167'>167</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_167'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSingleByteRead_UTF16(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSingleByteRead_UTF16(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_169'>169</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_169'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/input/CharSequenceInputStream::fillBuffer &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_170'>170</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_170'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSingleByteRead_UTF16(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> <p class='TIMED_OUT'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_171'>171</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_171'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSingleByteRead_UTF16(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_178'>178</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_178'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_187'>187</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_187'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSkip_USASCII(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSkip_USASCII(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSkip_USASCII(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_189'>189</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_189'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSkip_USASCII(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> Replaced long subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_190'>190</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_190'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSkip_USASCII(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_192'>192</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_192'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSkip_USASCII(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/io/input/CharSequenceInputStream::skip &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_207'>207</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_207'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>available<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSkip_USASCII(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>available<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testSkip_USASCII(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_241'>241</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_241'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reset<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_243'>243</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_243'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reset<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_248'>248</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_248'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reset<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='TIMED_OUT'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>reset<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_251'>251</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_251'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reset<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/input/CharSequenceInputStream::fillBuffer &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_254'>254</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_254'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reset<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@58add2b3_266'>266</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@58add2b3_266'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>markSupported<br/><b>Killed by : </b>org.apache.commons.io.input.CharSequenceInputStreamTest.testMarkSupported(org.apache.commons.io.input.CharSequenceInputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.io.input.CharSequenceInputStreamTest.testSkip_USASCII(org.apache.commons.io.input.CharSequenceInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D13_S1_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testLargeSingleByteRead_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (3 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testReadZero_RequiredCharsets(org.apache.commons.io.input.CharSequenceInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D10_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D20_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D10_S0_UTF16(org.apache.commons.io.input.CharSequenceInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testBufferedRead_AvailableCharset(org.apache.commons.io.input.CharSequenceInputStreamTest) (18 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testSingleByteRead_RequiredCharsets(org.apache.commons.io.input.CharSequenceInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D10_S1_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testSingleByteRead_UTF16(org.apache.commons.io.input.CharSequenceInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testBufferedRead_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D10_S2_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testLargeBufferedRead_RequiredCharsets(org.apache.commons.io.input.CharSequenceInputStreamTest) (50 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testCharsetMismatchInfiniteLoop_RequiredCharsets(org.apache.commons.io.input.CharSequenceInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_Loop_UTF16(org.apache.commons.io.input.CharSequenceInputStreamTest) (3 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testBufferedRead_RequiredCharset(org.apache.commons.io.input.CharSequenceInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_Loop_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (2 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testSingleByteRead_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testMarkReset_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testAvailable(org.apache.commons.io.input.CharSequenceInputStreamTest) (104 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testLargeSingleByteRead_RequiredCharsets(org.apache.commons.io.input.CharSequenceInputStreamTest) (30 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testMarkReset_USASCII(org.apache.commons.io.input.CharSequenceInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testIO_356_B10_D13_S0_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testReadZero_EmptyString(org.apache.commons.io.input.CharSequenceInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testMarkSupported(org.apache.commons.io.input.CharSequenceInputStreamTest) (1 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testSkip_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (7 ms)</li><li>org.apache.commons.io.input.CharSequenceInputStreamTest.testLargeBufferedRead_UTF8(org.apache.commons.io.input.CharSequenceInputStreamTest) (4 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

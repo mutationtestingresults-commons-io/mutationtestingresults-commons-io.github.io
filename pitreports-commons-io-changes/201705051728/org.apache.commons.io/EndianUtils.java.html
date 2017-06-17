@@ -1,0 +1,693 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>EndianUtils.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_58'>58</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_58'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>swapShort<br/><b>Killed by : </b>none</span></span> Replaced Shift Right with Shift Left &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>swapShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>swapShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>swapShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>swapShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>swapShort<br/><b>Killed by : </b>none</span></span> Replaced Shift Left with Shift Right &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>7.<span><b>7</b><br/><b>Location : </b>swapShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>8.<span><b>8</b><br/><b>Location : </b>swapShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapShort(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_68'>68</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_68'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>none</span></span> Replaced Shift Right with Shift Left &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>7.<span><b>7</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>8.<span><b>8</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>9.<span><b>9</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>10.<span><b>10</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>11.<span><b>11</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>12.<span><b>12</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>13.<span><b>13</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>14.<span><b>14</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>none</span></span> Replaced Shift Left with Shift Right &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>15.<span><b>15</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>16.<span><b>16</b><br/><b>Location : </b>swapInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_81'>81</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_81'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>none</span></span> Replaced Shift Right with Shift Left &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>7.<span><b>7</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>8.<span><b>8</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>9.<span><b>9</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>10.<span><b>10</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>11.<span><b>11</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>12.<span><b>12</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>13.<span><b>13</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>14.<span><b>14</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>15.<span><b>15</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>16.<span><b>16</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>17.<span><b>17</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>18.<span><b>18</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>19.<span><b>19</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>20.<span><b>20</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>21.<span><b>21</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>22.<span><b>22</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>23.<span><b>23</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>24.<span><b>24</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>25.<span><b>25</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>26.<span><b>26</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>27.<span><b>27</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>28.<span><b>28</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>29.<span><b>29</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>30.<span><b>30</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>none</span></span> Replaced Shift Left with Shift Right &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>31.<span><b>31</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>32.<span><b>32</b><br/><b>Location : </b>swapLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/io/EndianUtils::swapLong &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_98'>98</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_98'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>swapFloat<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of float value with -(x + 1) for org/apache/commons/io/EndianUtils::swapFloat &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_107'>107</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_107'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>swapDouble<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testSymmetry(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/io/EndianUtils::swapDouble &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_120'>120</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_120'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>none</span></span> Replaced Shift Right with Shift Left &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_121'>121</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_121'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_132'>132</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_132'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>none</span></span> Replaced Shift Left with Shift Right &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>7.<span><b>7</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>8.<span><b>8</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_145'>145</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_145'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>none</span></span> Replaced Shift Left with Shift Right &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>7.<span><b>7</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>8.<span><b>8</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_157'>157</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_157'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>none</span></span> Replaced Shift Right with Shift Left &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_158'>158</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_158'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_159'>159</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_159'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_160'>160</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_160'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_171'>171</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_171'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>none</span></span> Replaced Shift Left with Shift Right &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>7.<span><b>7</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>8.<span><b>8</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>9.<span><b>9</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>10.<span><b>10</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>11.<span><b>11</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>12.<span><b>12</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>13.<span><b>13</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>14.<span><b>14</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>15.<span><b>15</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>16.<span><b>16</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_186'>186</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_186'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>none</span></span> Replaced Shift Left with Shift Right &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>7.<span><b>7</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>8.<span><b>8</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>9.<span><b>9</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>10.<span><b>10</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>11.<span><b>11</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_190'>190</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_190'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_192'>192</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_192'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/io/EndianUtils::readSwappedUnsignedInteger &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_203'>203</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_203'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>none</span></span> Replaced Shift Right with Shift Left &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_204'>204</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_204'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_205'>205</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_205'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_206'>206</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_206'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_207'>207</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_207'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_208'>208</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_208'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_209'>209</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_209'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_210'>210</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_210'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_222'>222</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_222'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_223'>223</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_223'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>readSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/io/EndianUtils::readSwappedLong &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_234'>234</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_234'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedFloat<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to org/apache/commons/io/EndianUtils::writeSwappedInteger &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_245'>245</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_245'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedFloat<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of float value with -(x + 1) for org/apache/commons/io/EndianUtils::readSwappedFloat &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_256'>256</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_256'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedDouble<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to org/apache/commons/io/EndianUtils::writeSwappedLong &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_267'>267</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_267'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedDouble<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/io/EndianUtils::readSwappedDouble &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_280'>280</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_280'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>none</span></span> Replaced Shift Right with Shift Left &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_281'>281</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_281'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_294'>294</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_294'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>none</span></span> Replaced Shift Left with Shift Right &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_295'>295</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_295'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_311'>311</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_311'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>none</span></span> Replaced Shift Left with Shift Right &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>readSwappedUnsignedShort<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_325'>325</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_325'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>none</span></span> Replaced Shift Right with Shift Left &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_326'>326</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_326'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_327'>327</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_327'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_328'>328</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_328'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_346'>346</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_346'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>none</span></span> Replaced Shift Left with Shift Right &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>7.<span><b>7</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>8.<span><b>8</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>9.<span><b>9</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>10.<span><b>10</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>11.<span><b>11</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>12.<span><b>12</b><br/><b>Location : </b>readSwappedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_367'>367</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_367'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>none</span></span> Replaced Shift Left with Shift Right &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>7.<span><b>7</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>8.<span><b>8</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_371'>371</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_371'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_373'>373</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_373'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>readSwappedUnsignedInteger<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/io/EndianUtils::readSwappedUnsignedInteger &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_386'>386</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_386'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>none</span></span> Replaced Shift Right with Shift Left &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_387'>387</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_387'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_388'>388</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_388'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_389'>389</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_389'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_390'>390</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_390'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_391'>391</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_391'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_392'>392</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_392'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_393'>393</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_393'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>writeSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_407'>407</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_407'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>readSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>readSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testEOFException(org.apache.commons.io.EndianUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_410'>410</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_410'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedLong<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/io/EndianUtils::readSwappedLong &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_423'>423</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_423'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedFloat<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to org/apache/commons/io/EndianUtils::writeSwappedInteger &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_436'>436</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_436'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedFloat<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedFloat(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of float value with -(x + 1) for org/apache/commons/io/EndianUtils::readSwappedFloat &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_449'>449</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_449'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeSwappedDouble<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testWriteSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> removed call to org/apache/commons/io/EndianUtils::writeSwappedLong &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_462'>462</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_462'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readSwappedDouble<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedDouble(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/io/EndianUtils::readSwappedDouble &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_476'>476</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_476'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@55f1ac02_480'>480</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@55f1ac02_480'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.io.input.SwappedDataInputStreamTest.testReadShort(org.apache.commons.io.input.SwappedDataInputStreamTest) (0 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testSymmetryOfLong(org.apache.commons.io.EndianUtilsTest) (1 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testReadSwappedDouble(org.apache.commons.io.EndianUtilsTest) (1 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testWriteSwappedFloat(org.apache.commons.io.EndianUtilsTest) (0 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testWriteSwappedShort(org.apache.commons.io.EndianUtilsTest) (1 ms)</li><li>org.apache.commons.io.input.SwappedDataInputStreamTest.testReadDouble(org.apache.commons.io.input.SwappedDataInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.SwappedDataInputStreamTest.testReadUnsignedShort(org.apache.commons.io.input.SwappedDataInputStreamTest) (1 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedInteger(org.apache.commons.io.EndianUtilsTest) (2 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testWriteSwappedLong(org.apache.commons.io.EndianUtilsTest) (0 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testWriteSwappedDouble(org.apache.commons.io.EndianUtilsTest) (1 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testReadSwappedShort(org.apache.commons.io.EndianUtilsTest) (0 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testReadSwappedFloat(org.apache.commons.io.EndianUtilsTest) (1 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testWriteSwappedInteger(org.apache.commons.io.EndianUtilsTest) (1 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testReadSwappedInteger(org.apache.commons.io.EndianUtilsTest) (0 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testSwapShort(org.apache.commons.io.EndianUtilsTest) (0 ms)</li><li>org.apache.commons.io.input.SwappedDataInputStreamTest.testReadChar(org.apache.commons.io.input.SwappedDataInputStreamTest) (1 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testSwapFloat(org.apache.commons.io.EndianUtilsTest) (0 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testReadSwappedUnsignedShort(org.apache.commons.io.EndianUtilsTest) (0 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testSwapLong(org.apache.commons.io.EndianUtilsTest) (0 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testEOFException(org.apache.commons.io.EndianUtilsTest) (0 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testReadSwappedLong(org.apache.commons.io.EndianUtilsTest) (1 ms)</li><li>org.apache.commons.io.input.SwappedDataInputStreamTest.testReadFloat(org.apache.commons.io.input.SwappedDataInputStreamTest) (1 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testUnsignedOverrun(org.apache.commons.io.EndianUtilsTest) (0 ms)</li><li>org.apache.commons.io.input.SwappedDataInputStreamTest.testSkipBytes(org.apache.commons.io.input.SwappedDataInputStreamTest) (0 ms)</li><li>org.apache.commons.io.input.SwappedDataInputStreamTest.testReadInt(org.apache.commons.io.input.SwappedDataInputStreamTest) (1 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testSwapInteger(org.apache.commons.io.EndianUtilsTest) (0 ms)</li><li>org.apache.commons.io.input.SwappedDataInputStreamTest.testReadLong(org.apache.commons.io.input.SwappedDataInputStreamTest) (1 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testSwapDouble(org.apache.commons.io.EndianUtilsTest) (12 ms)</li><li>org.apache.commons.io.EndianUtilsTest.testSymmetry(org.apache.commons.io.EndianUtilsTest) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

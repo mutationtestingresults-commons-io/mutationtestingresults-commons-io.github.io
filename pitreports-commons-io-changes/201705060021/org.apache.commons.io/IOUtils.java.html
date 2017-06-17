@@ -1,0 +1,2583 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>IOUtils.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_188'>188</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_188'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_189'>189</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_189'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>none</span></span> removed call to java/net/HttpURLConnection::disconnect &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_222'>222</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_222'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::closeQuietly &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_253'>253</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_253'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>org.apache.commons.io.FileUtilsTestCase.test_openInputStream_exists(org.apache.commons.io.FileUtilsTestCase)</span></span> removed call to org/apache/commons/io/IOUtils::closeQuietly &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_285'>285</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_285'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::closeQuietly &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_318'>318</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_318'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>org.apache.commons.io.comparator.SizeFileComparatorTest.testNonexistantFile(org.apache.commons.io.comparator.SizeFileComparatorTest)</span></span> removed call to org/apache/commons/io/IOUtils::closeQuietly &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_363'>363</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_363'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>org.apache.commons.io.output.LockableFileWriterTest.testConstructor_fileName_nullFile(org.apache.commons.io.output.LockableFileWriterTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_364'>364</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_364'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>org.apache.commons.io.comparator.SizeFileComparatorTest.testNonexistantFile(org.apache.commons.io.comparator.SizeFileComparatorTest)</span></span> removed call to java/io/Closeable::close &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_420'>420</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_420'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_423'>423</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_423'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_424'>424</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_424'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::closeQuietly &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_457'>457</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_457'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_459'>459</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_459'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> removed call to java/net/Socket::close &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_495'>495</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_495'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_497'>497</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_497'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> removed call to java/nio/channels/Selector::close &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_533'>533</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_533'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_535'>535</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_535'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>closeQuietly<br/><b>Killed by : </b>none</span></span> removed call to java/net/ServerSocket::close &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_564'>564</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_564'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toBufferedInputStream<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toBufferedInputStream to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_590'>590</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_590'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toBufferedInputStream<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toBufferedInputStream to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_604'>604</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_604'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toBufferedReader<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toBufferedReader<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toBufferedReader to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_619'>619</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_619'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toBufferedReader<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toBufferedReader<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toBufferedReader to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_632'>632</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_632'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::buffer to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_646'>646</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_646'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::buffer to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_659'>659</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_659'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::buffer to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_673'>673</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_673'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::buffer to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_687'>687</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_687'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_690'>690</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_690'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::buffer to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_706'>706</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_706'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_709'>709</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_709'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::buffer to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_724'>724</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_724'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_727'>727</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_727'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::buffer to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_743'>743</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_743'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_746'>746</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_746'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>buffer<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::buffer to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_767'>767</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_767'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toByteArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_789'>789</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_789'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_793'>793</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_793'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toByteArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_811'>811</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_811'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_815'>815</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_815'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_816'>816</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_816'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toByteArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_823'>823</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_823'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_824'>824</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_824'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_827'>827</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_827'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_831'>831</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_831'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toByteArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_849'>849</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_849'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toByteArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_868'>868</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_868'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_869'>869</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_869'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toByteArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_893'>893</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_893'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toByteArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_911'>911</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_911'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toByteArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_924'>924</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_924'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toByteArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_939'>939</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_939'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toByteArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_941'>941</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_941'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::close &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_956'>956</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_956'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toByteArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toByteArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_979'>979</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_979'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toCharArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toCharArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_999'>999</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_999'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toCharArray<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1000'>1000</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1000'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toCharArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toCharArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1024'>1024</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1024'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toCharArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toCharArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1042'>1042</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1042'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toCharArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toCharArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1063'>1063</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1063'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1083'>1083</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1083'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1084'>1084</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1084'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1108'>1108</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1108'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1125'>1125</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1125'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1139'>1139</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1139'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1152'>1152</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1152'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1168'>1168</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1168'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1182'>1182</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1182'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1196'>1196</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1196'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1213'>1213</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1213'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1229'>1229</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1229'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1246'>1246</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1246'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1268'>1268</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1268'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readLines<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::readLines to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1287'>1287</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1287'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readLines<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::readLines to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1311'>1311</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1311'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readLines<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::readLines to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1331'>1331</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1331'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readLines<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1335'>1335</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1335'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readLines<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::readLines to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1369'>1369</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1369'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>lineIterator<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::lineIterator to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1403'>1403</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1403'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>lineIterator<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::lineIterator to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1440'>1440</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1440'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>lineIterator<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::lineIterator to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1456'>1456</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1456'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toInputStream<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toInputStream to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1469'>1469</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1469'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toInputStream<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toInputStream to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1489'>1489</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1489'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toInputStream<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toInputStream to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1505'>1505</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1505'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toInputStream<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toInputStream to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1518'>1518</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1518'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toInputStream<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toInputStream to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1539'>1539</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1539'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toInputStream<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::toInputStream to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1557'>1557</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1557'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1558'>1558</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1558'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1576'>1576</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1576'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1579'>1579</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1579'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1581'>1581</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1581'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1582'>1582</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1582'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1583'>1583</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1583'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1604'>1604</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1604'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1622'>1622</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1622'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1623'>1623</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1623'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1648'>1648</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1648'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1665'>1665</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1665'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1666'>1666</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1666'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1683'>1683</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1683'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1686'>1686</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1686'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1688'>1688</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1688'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1689'>1689</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1689'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1690'>1690</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1690'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeChunked<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1713'>1713</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1713'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1732'>1732</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1732'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1733'>1733</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1733'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1759'>1759</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1759'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1775'>1775</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1775'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1776'>1776</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1776'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1797'>1797</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1797'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1815'>1815</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1815'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1816'>1816</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1816'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1840'>1840</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1840'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1856'>1856</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1856'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1857'>1857</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1857'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1878'>1878</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1878'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1895'>1895</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1895'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1896'>1896</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1896'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1920'>1920</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1920'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1939'>1939</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1939'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1940'>1940</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1940'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1961'>1961</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1961'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1986'>1986</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1986'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_1987'>1987</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_1987'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2010'>2010</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2010'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::writeLines &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2028'>2028</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2028'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2031'>2031</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2031'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2035'>2035</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2035'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2036'>2036</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2036'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2037'>2037</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2037'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2039'>2039</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2039'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2064'>2064</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2064'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::writeLines &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2080'>2080</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2080'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2083'>2083</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2083'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2086'>2086</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2086'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2087'>2087</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2087'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2088'>2088</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2088'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2090'>2090</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2090'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>writeLines<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2118'>2118</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2118'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2119'>2119</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2119'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2121'>2121</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2121'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2141'>2141</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2141'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2162'>2162</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2162'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::copyLarge &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2185'>2185</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2185'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2186'>2186</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2186'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2187'>2187</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2187'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> Replaced long addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2189'>2189</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2189'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::copyLarge &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2218'>2218</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2218'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::copyLarge &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2247'>2247</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2247'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2248'>2248</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2248'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::skipFully &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2250'>2250</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2250'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2251'>2251</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2251'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::copyLarge &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2255'>2255</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2255'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2260'>2260</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2260'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2261'>2261</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2261'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2262'>2262</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2262'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> Replaced long addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2263'>2263</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2263'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2265'>2265</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2265'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> Replaced long subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2268'>2268</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2268'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::copyLarge &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2290'>2290</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2290'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2339'>2339</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2339'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2365'>2365</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2365'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2366'>2366</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2366'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2368'>2368</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2368'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2387'>2387</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2387'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::copyLarge &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2408'>2408</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2408'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2409'>2409</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2409'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2410'>2410</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2410'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> Replaced long addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2412'>2412</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2412'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::copyLarge &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2436'>2436</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2436'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::copyLarge &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2461'>2461</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2461'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2462'>2462</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2462'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::skipFully &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2464'>2464</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2464'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2465'>2465</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2465'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::copyLarge &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2468'>2468</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2468'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2473'>2473</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2473'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2474'>2474</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2474'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2475'>2475</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2475'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> Replaced long addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2476'>2476</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2476'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2478'>2478</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2478'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> Replaced long subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2481'>2481</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2481'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copyLarge<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::copyLarge &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2507'>2507</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2507'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2539'>2539</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2539'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStreamWriter::flush &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2570'>2570</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2570'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2592'>2592</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2592'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2593'>2593</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2593'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2595'>2595</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2595'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2598'>2598</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2598'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2603'>2603</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2603'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2605'>2605</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2605'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2606'>2606</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2606'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2612'>2612</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2612'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2632'>2632</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2632'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2633'>2633</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2633'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2640'>2640</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2640'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2642'>2642</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2642'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2643'>2643</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2643'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2649'>2649</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2649'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>contentEquals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2668'>2668</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2668'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEqualsIgnoreEOL<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2669'>2669</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2669'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEqualsIgnoreEOL<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2676'>2676</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2676'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEqualsIgnoreEOL<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>contentEqualsIgnoreEOL<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>contentEqualsIgnoreEOL<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2680'>2680</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2680'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contentEqualsIgnoreEOL<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>contentEqualsIgnoreEOL<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>contentEqualsIgnoreEOL<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2705'>2705</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2705'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2713'>2713</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2713'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2717'>2717</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2717'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2720'>2720</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2720'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2723'>2723</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2723'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> Replaced long subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2725'>2725</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2725'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> Replaced long subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::skip &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2741'>2741</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2741'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2746'>2746</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2746'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2750'>2750</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2750'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2753'>2753</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2753'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> Replaced long subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2755'>2755</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2755'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> Replaced long subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::skip &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2780'>2780</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2780'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2788'>2788</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2788'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2792'>2792</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2792'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2795'>2795</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2795'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2798'>2798</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2798'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> Replaced long subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2800'>2800</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2800'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> Replaced long subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skip<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/IOUtils::skip &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2823'>2823</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2823'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skipFully<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skipFully<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2827'>2827</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2827'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skipFully<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2843'>2843</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2843'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skipFully<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>skipFully<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2847'>2847</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2847'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skipFully<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2873'>2873</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2873'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>skipFully<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2895'>2895</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2895'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2899'>2899</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2899'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2900'>2900</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2900'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2901'>2901</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2901'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2902'>2902</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2902'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2905'>2905</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2905'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2907'>2907</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2907'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2923'>2923</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2923'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2942'>2942</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2942'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2946'>2946</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2946'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2947'>2947</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2947'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2948'>2948</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2948'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2949'>2949</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2949'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2952'>2952</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2952'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2954'>2954</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2954'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2970'>2970</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2970'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2988'>2988</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2988'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2990'>2990</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2990'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_2994'>2994</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_2994'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>read<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_3015'>3015</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_3015'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readFully<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_3034'>3034</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_3034'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readFully<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::readFully &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_3055'>3055</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_3055'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readFully<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_3074'>3074</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_3074'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readFully<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::readFully &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_3093'>3093</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_3093'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readFully<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/IOUtils::readFully &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_3094'>3094</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_3094'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readFully<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/IOUtils::readFully to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@46614b0a_3112'>3112</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@46614b0a_3112'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readFully<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.io.IOUtilsTestCase.testSkipFully_ReadableByteChannel(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.sameEncoding_string_constructor(org.apache.commons.io.output.FileWriterWithEncodingTest) (0 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testInjectionFailure(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLinesEncoding_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testDecodeUrlNullSafe(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyFile1(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopyLarge_CharFullLength(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteStringToFile1(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_InputStream_SizeZero(org.apache.commons.io.IOUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testForceDeleteAFile1(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.comparator.CompositeFileComparatorTest.constructorIterable_Null(org.apache.commons.io.comparator.CompositeFileComparatorTest) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToFiles2(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceWindows_String_EmptyResponse(org.apache.commons.io.FileSystemUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.filefilter.FileFilterTestCase.testMakeDirectoryOnly(org.apache.commons.io.filefilter.FileFilterTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testIsExtensionCollection(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.CompositeFileComparatorTest.testSortArrayNull(org.apache.commons.io.comparator.CompositeFileComparatorTest) (1 ms)</li><li>org.apache.commons.io.filefilter.FileFilterTestCase.testCanRead(org.apache.commons.io.filefilter.FileFilterTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopyLarge_SkipInvalid(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.sameEncoding_CharsetEncoder_constructor(org.apache.commons.io.output.FileWriterWithEncodingTest) (1 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.sameEncoding_string_string_constructor(org.apache.commons.io.output.FileWriterWithEncodingTest) (1 ms)</li><li>org.apache.commons.io.comparator.LastModifiedFileComparatorTest.testSortList(org.apache.commons.io.comparator.LastModifiedFileComparatorTest) (1803 ms)</li><li>org.apache.commons.io.FileUtilsFileNewerTestCase.testIsFileNewerNoFile(org.apache.commons.io.FileUtilsFileNewerTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveFileToDirectory(org.apache.commons.io.FileUtilsTestCase) (9 ms)</li><li>org.apache.commons.io.output.LockableFileWriterTest.testConstructor_File_nullFile(org.apache.commons.io.output.LockableFileWriterTest) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testDeleteQuietlyNonExistent(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.sameEncoding_string_CharsetEncoder_constructor(org.apache.commons.io.output.FileWriterWithEncodingTest) (1 ms)</li><li>org.apache.commons.io.FileDeleteStrategyTestCase.testDeleteNormal(org.apache.commons.io.FileDeleteStrategyTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URI_CharsetName(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testIterateFiles(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetPrefix_with_nullbyte(org.apache.commons.io.FilenameUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceWindows_String_quoted(org.apache.commons.io.FileSystemUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.filefilter.FileFilterTestCase.testEmpty(org.apache.commons.io.filefilter.FileFilterTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.LastModifiedFileComparatorTest.testSortArrayNull(org.apache.commons.io.comparator.LastModifiedFileComparatorTest) (2105 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetPath(org.apache.commons.io.FilenameUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyFile1ToDir(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.comparator.SizeFileComparatorTest.testReverseComparator(org.apache.commons.io.comparator.SizeFileComparatorTest) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URI(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_URL(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_5argsWithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testChecksum(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.constructor_fileName_nullFile(org.apache.commons.io.output.FileWriterWithEncodingTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopyLarge_CharExtraLength(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyDirectoryToNonExistingDest(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetPath_with_nullbyte(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCloseQuietly_SelectorIOException(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsFileNewerTestCase.testIsFileNewerNoFileReference(org.apache.commons.io.FileUtilsFileNewerTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testForceMkdirParent(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.test_openInputStream_exists(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_3argsWithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testRemoveExtension(org.apache.commons.io.FilenameUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteStringToFile2(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.input.TailerTest.testTailerEndOfFileReached(org.apache.commons.io.input.TailerTest) (3704 ms)</li><li>org.apache.commons.io.input.TailerTest.testTailerEof(org.apache.commons.io.input.TailerTest) (1511 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToFiles1(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyFile2(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveDirectory_Errors(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopyLarge_FullLength(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testAsBufferedWriterWithBufferSize(org.apache.commons.io.IOUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteWithEncoding_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testReadLines_InputStream_String(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testForceDeleteAFile2(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetExtension(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.CompositeFileComparatorTest.constructorIterable_order(org.apache.commons.io.comparator.CompositeFileComparatorTest) (0 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testNormalize_with_nullbytes(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetFullPathNoEndSeparator(org.apache.commons.io.FilenameUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.output.LockableFileWriterTest.testAlternateLockDir(org.apache.commons.io.output.LockableFileWriterTest) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testNormalizeNoEndSeparatorUnixWin(org.apache.commons.io.FilenameUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testAsBufferedReader(org.apache.commons.io.IOUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_Reader(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopy_ByteArray_Writer(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testAsBufferedInputStreamWithBufferSize(org.apache.commons.io.IOUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToBufferedInputStreamWithBufferSize_InputStream(org.apache.commons.io.IOUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.test_openOutputStream_noParentCreateFile(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCloseQuietly_Selector(org.apache.commons.io.IOUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testDeleteQuietlyFile(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testContentEquals_InputStream_InputStream(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.SizeFileComparatorTest.testSortList(org.apache.commons.io.comparator.SizeFileComparatorTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToCharArray_InputStream(org.apache.commons.io.IOUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyDirectoryErrors(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_4arg(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testIterateFilesAndDirs(org.apache.commons.io.FileUtilsTestCase) (9 ms)</li><li>org.apache.commons.io.input.TailerTest.testLongFile(org.apache.commons.io.input.TailerTest) (2611 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCloseQuietly_Socket(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileCleaningTrackerTestCase.testFileCleanerDirectory_NullStrategy(org.apache.commons.io.FileCleaningTrackerTestCase) (523 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToFile2(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.test_openInputStream_existsButIsDirectory(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToFiles3(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCloseQuietly_ServerSocket(org.apache.commons.io.IOUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testListFilesWithDirs(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToFile4(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testGetFile(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.input.TailerTest.testTailer(org.apache.commons.io.input.TailerTest) (5406 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceWindows_String_InvalidTextResponse(org.apache.commons.io.FileSystemUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToInputStream_String(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testChecksumCRC32(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.test_openOutputStream_existsButIsDirectory(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteStringToFile3(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testEqualsNormalized(org.apache.commons.io.FilenameUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteByteArrayToFile_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWrite_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToFile1(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.comparator.LastModifiedFileComparatorTest.testComparator(org.apache.commons.io.comparator.LastModifiedFileComparatorTest) (1806 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testAsBufferedInputStream(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopyLarge_ExtraLength(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_URI(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceWindows_String_EmptyPath(org.apache.commons.io.FileSystemUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testListFiles(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testChecksumOnDirectory(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testReadFully_Reader_Offset(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_InputStream(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testAsBufferedOutputStreamWithBufferSize(org.apache.commons.io.IOUtilsTestCase) (10 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_4arg_nullSeparator(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveFile_Errors(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveFile_CopyDelete(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.output.LockableFileWriterTest.testConstructor_File_encoding_badEncoding(org.apache.commons.io.output.LockableFileWriterTest) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testEqualsOnSystem(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testDecodeUrlLenient(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.constructor_File_encoding_badEncoding(org.apache.commons.io.output.FileWriterWithEncodingTest) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_3arg_nullSeparator(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testChecksumOnNullChecksum(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToCharArray_InputStream_CharsetName(org.apache.commons.io.IOUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testGetTempDirectory(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testEqualsNormalizedOnSystem(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_URLConnection(org.apache.commons.io.IOUtilsTestCase) (7 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetPathNoEndSeparator_with_null_byte(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteStringToFile_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testReadLines(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testSkipFully_Reader(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyFileToOutputStream(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.filefilter.FileFilterTestCase.testSizeFilter(org.apache.commons.io.filefilter.FileFilterTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.test_openOutputStream_exists(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testReadLines_Reader(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyFile2WithoutFileDatePreservation(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.CompositeFileComparatorTest.testComparator(org.apache.commons.io.comparator.CompositeFileComparatorTest) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URL_CharsetName(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_NormalResponseLinux(org.apache.commons.io.FileSystemUtilsTestCase) (5 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testGetFile_Parent(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testGetTempDirectoryPath(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testFileUtils(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testIsFileNewerOlder(org.apache.commons.io.FileUtilsTestCase) (2003 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_InvalidResponse4(org.apache.commons.io.FileSystemUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToFileUtf8(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testReadLines_InputStream(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCloseQuietly_SelectorNull(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveFileToDirectory_Errors(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_String(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToCharArray_Reader(org.apache.commons.io.IOUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testContentEqualsIgnoreEOL(org.apache.commons.io.IOUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceWindows_String_NormalResponse(org.apache.commons.io.FileSystemUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteByteArrayToFile_WithOffsetAndLength_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testContentEquals(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FileCleanerTestCase.testFileCleanerDirectory_ForceStrategy(org.apache.commons.io.FileCleanerTestCase) (547 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.test_openOutputStream_noParentNoFile(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_EmptyResponse(org.apache.commons.io.FileSystemUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCloseQuietly_CloseableIOException(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testReadFileToByteArray(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testReadFileToStringWithEncoding(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.filefilter.FileFilterTestCase.testMagicNumberFileFilterBytesOffset(org.apache.commons.io.filefilter.FileFilterTestCase) (4 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteStringToFile_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_NormalResponseKbSolaris(org.apache.commons.io.FileSystemUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.test_openOutputStream_notExists(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testForceDeleteDir(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteByteArrayToFile_WithOffsetAndLength_WithAppendOptionTrue_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testSeparatorsToUnix(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.SizeFileComparatorTest.testCompareDirectorySizes(org.apache.commons.io.comparator.SizeFileComparatorTest) (3 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_NormalResponseKbLinux(org.apache.commons.io.FileSystemUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetFullPath(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_InvalidResponse3(org.apache.commons.io.FileSystemUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.output.LockableFileWriterTest.testFileNotLocked(org.apache.commons.io.output.LockableFileWriterTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopyLarge_CharSkipInvalid(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLinesEncoding_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToFile5(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testDeleteQuietlyDir(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.CompositeFileComparatorTest.testReverseComparator(org.apache.commons.io.comparator.CompositeFileComparatorTest) (0 ms)</li><li>org.apache.commons.io.filefilter.FileFilterTestCase.testMakeCVSAware(org.apache.commons.io.filefilter.FileFilterTestCase) (11 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToInputStream_CharSequence(org.apache.commons.io.IOUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCompareSizeOf(org.apache.commons.io.FileUtilsTestCase) (9 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToFiles4(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testStringToOutputStream(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.filefilter.FileFilterTestCase.testMagicNumberFileFilterStringOffset(org.apache.commons.io.filefilter.FileFilterTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_InputStream_NegativeSize(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URI_CharsetNameNull(org.apache.commons.io.IOUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveToDirectory(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testSizeOf(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteWithEncoding_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.input.TailerTest.testIO335(org.apache.commons.io.input.TailerTest) (2204 ms)</li><li>org.apache.commons.io.comparator.LastModifiedFileComparatorTest.testSortArray(org.apache.commons.io.comparator.LastModifiedFileComparatorTest) (2106 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteByteArrayToFile_WithOffsetAndLength(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.LastModifiedFileComparatorTest.testSortListNull(org.apache.commons.io.comparator.LastModifiedFileComparatorTest) (2104 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testEqualsNormalizedError_IO_128(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.input.TailerTest.testBufferBreak(org.apache.commons.io.input.TailerTest) (2211 ms)</li><li>org.apache.commons.io.output.LockableFileWriterTest.testFileLocked(org.apache.commons.io.output.LockableFileWriterTest) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testGetUserDirectory(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopy_ByteArray_OutputStream(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testIsExtension(org.apache.commons.io.FilenameUtilsTestCase) (9 ms)</li><li>org.apache.commons.io.filefilter.FileFilterTestCase.testMakeSVNAware(org.apache.commons.io.filefilter.FileFilterTestCase) (5 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteCharSequence2(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileCleaningTrackerTestCase.testFileCleanerDirectory(org.apache.commons.io.FileCleaningTrackerTestCase) (514 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToBufferedInputStream_InputStream(org.apache.commons.io.IOUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.comparator.CompositeFileComparatorTest.testSortListNull(org.apache.commons.io.comparator.CompositeFileComparatorTest) (0 ms)</li><li>org.apache.commons.io.comparator.CompositeFileComparatorTest.testSortList(org.apache.commons.io.comparator.CompositeFileComparatorTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testContentEqualsIgnoreEOL(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetPathNoEndSeparator(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.LastModifiedFileComparatorTest.testReverseComparator(org.apache.commons.io.comparator.LastModifiedFileComparatorTest) (1807 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveFile_CopyDelete_Failed(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsFileNewerTestCase.testIsFileNewer(org.apache.commons.io.FileUtilsFileNewerTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testAsBufferedReaderWithBufferSize(org.apache.commons.io.IOUtilsTestCase) (4 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyDirectoryToDirectory_NonExistingDest(org.apache.commons.io.FileUtilsTestCase) (8 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testIO300(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveDirectory_Rename(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.filefilter.FileFilterTestCase.testAgeFilter(org.apache.commons.io.filefilter.FileFilterTestCase) (2004 ms)</li><li>org.apache.commons.io.comparator.SizeFileComparatorTest.testNonexistantFile(org.apache.commons.io.comparator.SizeFileComparatorTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteStringToFileWithEncoding_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_InputStream(org.apache.commons.io.IOUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testDeleteDirectoryWithNonDirectory(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetName(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopy_String_Writer(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyDirectoryToExistingDest(org.apache.commons.io.FileUtilsTestCase) (7 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWrite_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URL_CharsetNameNull(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetBaseName_with_nullByte(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCloseQuietly_SelectorTwice(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveDirectory_CopyDelete(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testDeleteQuietlyForNull(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testDecodeUrl(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpace_String(org.apache.commons.io.FileSystemUtilsTestCase) (105 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.test_openInputStream_notExists(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testAsBufferedWriter(org.apache.commons.io.IOUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_InputStream_Size(org.apache.commons.io.IOUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.filefilter.FileFilterTestCase.testMakeFileOnly(org.apache.commons.io.filefilter.FileFilterTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testSkipFully_InputStream(org.apache.commons.io.IOUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testByteCountToDisplaySizeBigInteger(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.comparator.LastModifiedFileComparatorTest.testToString(org.apache.commons.io.comparator.LastModifiedFileComparatorTest) (2106 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testSeparatorsToSystem(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URL(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceWindows_String_NoSuchDirectoryResponse(org.apache.commons.io.FileSystemUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.constructor_File_directory(org.apache.commons.io.output.FileWriterWithEncodingTest) (1 ms)</li><li>org.apache.commons.io.FileUtilsFileNewerTestCase.testIsFileNewerNoDate(org.apache.commons.io.FileUtilsFileNewerTestCase) (4 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_4argsWithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_4arg_Writer_nullData(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetFullPathNoEndSeparator_IO_248(org.apache.commons.io.FilenameUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testSizeOfAsBigInteger(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testByteCountToDisplaySizeLong(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testNormalizeNoEndSeparator(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_5argsWithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_InputStream_SizeLong(org.apache.commons.io.IOUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetPrefix(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.constructor_File_nullFile(org.apache.commons.io.output.FileWriterWithEncodingTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testChecksumOnNullFile(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileCleanerTestCase.testFileCleanerDirectory(org.apache.commons.io.FileCleanerTestCase) (597 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testTouch(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_LongResponse(org.apache.commons.io.FileSystemUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testConstants(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testAsBufferedNull(org.apache.commons.io.IOUtilsTestCase) (5 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testSizeOfDirectoryAsBigInteger(org.apache.commons.io.FileUtilsTestCase) (4 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testReadFully_Reader(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testSkip_ReadableByteChannel(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyURLToFileWithTimeout(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.SizeFileComparatorTest.testToString(org.apache.commons.io.comparator.SizeFileComparatorTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testForceMkdir(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveToDirectory_Errors(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testReadFileToStringWithDefaultEncoding(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyFile2ToDir(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.comparator.SizeFileComparatorTest.testSortArray(org.apache.commons.io.comparator.SizeFileComparatorTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyURLToFile(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_NormalResponseKbFreeBSD(org.apache.commons.io.FileSystemUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testSkip_FileReader(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testIsExtensionArray(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.CompositeFileComparatorTest.testSortArray(org.apache.commons.io.comparator.CompositeFileComparatorTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteByteArrayToFile_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.SizeFileComparatorTest.testSortArrayNull(org.apache.commons.io.comparator.SizeFileComparatorTest) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testGetUserDirectoryPath(org.apache.commons.io.FileUtilsTestCase) (6 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_InvalidResponse2(org.apache.commons.io.FileSystemUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceWindows_String_ParseCommaFormatBytes(org.apache.commons.io.FileSystemUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileCleanerTestCase.testFileCleanerDirectory_NullStrategy(org.apache.commons.io.FileCleanerTestCase) (523 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyToSelf(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCloseQuietly_AllCloseableIOException(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testContentEquals_Reader_Reader(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveDirectoryToDirectory(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testEquals_fullControl(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testConcat(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_LongResponseKb(org.apache.commons.io.FileSystemUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToURLs3a(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testReadFully_ReadableByteChannel(org.apache.commons.io.IOUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_InvalidResponse1(org.apache.commons.io.FileSystemUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_InputStream_SizeIllegal(org.apache.commons.io.IOUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveDirectoryToDirectory_Errors(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileDeleteStrategyTestCase.testDeleteQuietlyNormal(org.apache.commons.io.FileDeleteStrategyTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopyLarge_Skip(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_4argsWithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.SizeFileComparatorTest.testSortListNull(org.apache.commons.io.comparator.SizeFileComparatorTest) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testIndexOfLastSeparator(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.filefilter.FileFilterTestCase.testCanWrite(org.apache.commons.io.filefilter.FileFilterTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.test_openOutputStream_notExistsCannotCreate(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToFiles3a(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetPrefixLength(org.apache.commons.io.FilenameUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testForceDeleteAFile3(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testNormalize(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.input.TailerTest.testMultiByteBreak(org.apache.commons.io.input.TailerTest) (2705 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.sameEncoding_null_Charset_constructor(org.apache.commons.io.output.FileWriterWithEncodingTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyDirectoryPreserveDates(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopyLarge_NoSkip(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.comparator.CompositeFileComparatorTest.testToString(org.apache.commons.io.comparator.CompositeFileComparatorTest) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopyLarge_CharSkip(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_Reader(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testIndexOfExtension(org.apache.commons.io.FilenameUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testSkip_InputStream(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyDirectoryToChild(org.apache.commons.io.FileUtilsTestCase) (10 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testSeparatorsToWindows(org.apache.commons.io.FilenameUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceWindows_String_EmptyMultiLineResponse(org.apache.commons.io.FileSystemUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_ByteArray(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testIO276(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.testDifferentEncoding(org.apache.commons.io.output.FileWriterWithEncodingTest) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testRead_ReadableByteChannel(org.apache.commons.io.IOUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testIncorrectOutputSize(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testGetBaseName(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testAsBufferedOutputStream(org.apache.commons.io.IOUtilsTestCase) (8 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteStringToFileWithEncoding_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testReadFully_InputStream_ByteArray(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testDecodeUrlEncodingUtf8(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testReadFully_InputStream__ReturnByteArray(org.apache.commons.io.IOUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testReadFully_InputStream_Offset(org.apache.commons.io.IOUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteByteArrayToFile(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.LockableFileWriterTest.testConstructor_fileName_nullFile(org.apache.commons.io.output.LockableFileWriterTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCloseQuietly_ServerSocketIOException(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.sameEncoding_string_Charset_constructor(org.apache.commons.io.output.FileWriterWithEncodingTest) (0 ms)</li><li>org.apache.commons.io.output.LockableFileWriterTest.testConstructor_File_directory(org.apache.commons.io.output.LockableFileWriterTest) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testNormalizeUnixWin(org.apache.commons.io.FilenameUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testSizeOfDirectory(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToURLs1(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteCharSequence1(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceWindows_String_StripDrive(org.apache.commons.io.FileSystemUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testMoveFile_Rename(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopyLarge_CharNoSkip(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testEquals(org.apache.commons.io.FilenameUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_3argsWithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyDirectoryToGrandChild(org.apache.commons.io.FileUtilsTestCase) (10 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testChecksumDouble(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.comparator.CompositeFileComparatorTest.constructorArray_Null(org.apache.commons.io.comparator.CompositeFileComparatorTest) (4 ms)</li><li>org.apache.commons.io.FileUtilsFileNewerTestCase.testIsFileNewerImaginaryFile(org.apache.commons.io.FileUtilsFileNewerTestCase) (1 ms)</li><li>org.apache.commons.io.FileDeleteStrategyTestCase.testDeleteForce(org.apache.commons.io.FileDeleteStrategyTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCloseQuietly_SocketIOException(org.apache.commons.io.IOUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileSystemUtilsTestCase.testGetFreeSpaceUnix_String_NormalResponseFreeBSD(org.apache.commons.io.FileSystemUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FilenameUtilsTestCase.testIsExtension_injection(org.apache.commons.io.FilenameUtilsTestCase) (6 ms)</li><li>org.apache.commons.io.output.FileWriterWithEncodingTest.sameEncoding_Charset_constructor(org.apache.commons.io.output.FileWriterWithEncodingTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyDirectoryFiltered(org.apache.commons.io.FileUtilsTestCase) (6 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testCopyDirectoryToItself(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.comparator.SizeFileComparatorTest.testComparator(org.apache.commons.io.comparator.SizeFileComparatorTest) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testToFile3(org.apache.commons.io.FileUtilsTestCase) (3 ms)</li><li>org.apache.commons.io.FileCleaningTrackerTestCase.testFileCleanerDirectory_ForceStrategy(org.apache.commons.io.FileCleaningTrackerTestCase) (521 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

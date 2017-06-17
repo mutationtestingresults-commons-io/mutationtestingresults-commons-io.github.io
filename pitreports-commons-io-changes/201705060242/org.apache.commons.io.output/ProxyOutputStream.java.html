@@ -1,0 +1,263 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>ProxyOutputStream.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_54'>54</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_54'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.CountingOutputStreamTest.testCounting(org.apache.commons.io.output.CountingOutputStreamTest)</span></span> removed call to org/apache/commons/io/output/ProxyOutputStream::beforeWrite &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_55'>55</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_55'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyOutputStreamTest.testWrite(org.apache.commons.io.output.ProxyOutputStreamTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_56'>56</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_56'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyOutputStream::afterWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_58'>58</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_58'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.CloseShieldOutputStreamTest.testClose(org.apache.commons.io.output.CloseShieldOutputStreamTest)</span></span> removed call to org/apache/commons/io/output/ProxyOutputStream::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_70'>70</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_70'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.ProxyOutputStreamTest.testWriteNullBaSucceeds(org.apache.commons.io.output.ProxyOutputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_71'>71</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_71'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.CountingOutputStreamTest.testCounting(org.apache.commons.io.output.CountingOutputStreamTest)</span></span> removed call to org/apache/commons/io/output/ProxyOutputStream::beforeWrite &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_72'>72</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_72'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.CountingOutputStreamTest.testCounting(org.apache.commons.io.output.CountingOutputStreamTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_73'>73</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_73'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyOutputStream::afterWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_75'>75</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_75'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyOutputStream::handleIOException &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_89'>89</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_89'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.CountingOutputStreamTest.testCounting(org.apache.commons.io.output.CountingOutputStreamTest)</span></span> removed call to org/apache/commons/io/output/ProxyOutputStream::beforeWrite &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_90'>90</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_90'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.CountingOutputStreamTest.testCounting(org.apache.commons.io.output.CountingOutputStreamTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_91'>91</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_91'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyOutputStream::afterWrite &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_93'>93</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_93'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ProxyOutputStream::handleIOException &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_104'>104</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_104'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>flush<br/><b>Killed by : </b>org.apache.commons.io.output.TaggedOutputStreamTest.testBrokenStream(org.apache.commons.io.output.TaggedOutputStreamTest)</span></span> removed call to java/io/OutputStream::flush &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_106'>106</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_106'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>flush<br/><b>Killed by : </b>org.apache.commons.io.output.TaggedOutputStreamTest.testBrokenStream(org.apache.commons.io.output.TaggedOutputStreamTest)</span></span> removed call to org/apache/commons/io/output/ProxyOutputStream::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_117'>117</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_117'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>org.apache.commons.io.output.TeeOutputStreamTest.testCloseBranchIOException(org.apache.commons.io.output.TeeOutputStreamTest)</span></span> removed call to java/io/OutputStream::close &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@74165814_119'>119</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@74165814_119'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>org.apache.commons.io.output.TeeOutputStreamTest.testCloseMainIOException(org.apache.commons.io.output.TeeOutputStreamTest)</span></span> removed call to org/apache/commons/io/output/ProxyOutputStream::handleIOException &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.io.output.TaggedOutputStreamTest.testBrokenStream(org.apache.commons.io.output.TaggedOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_charArrayToOutputStream_nullData(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_charSequenceToOutputStream_nullData(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWriteLines_OutputStream(org.apache.commons.io.IOUtilsWriteTestCase) (1 ms)</li><li>org.apache.commons.io.output.TaggedOutputStreamTest.testOtherException(org.apache.commons.io.output.TaggedOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.CountingOutputStreamTest.testCounting(org.apache.commons.io.output.CountingOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.CopyUtilsTest.copy_byteArrayToWriter(org.apache.commons.io.CopyUtilsTest) (1 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_stringToOutputStream(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_inputStreamToOutputStream(org.apache.commons.io.IOUtilsCopyTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_byteArrayToOutputStream(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.output.TaggedOutputStreamTest.testNormalStream(org.apache.commons.io.output.TaggedOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_stringToOutputStream_nullData(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.output.TeeOutputStreamTest.testCloseBranchIOException(org.apache.commons.io.output.TeeOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.CloseShieldOutputStreamTest.testClose(org.apache.commons.io.output.CloseShieldOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_charSequenceToOutputStream(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWriteLines_OutputStream_nullSeparator(org.apache.commons.io.IOUtilsWriteTestCase) (2 ms)</li><li>org.apache.commons.io.CopyUtilsTest.copy_stringToOutputStream(org.apache.commons.io.CopyUtilsTest) (1 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_charArrayToOutputStream_nullEncoding(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWriteLines_OutputStream_Encoding_nullEncoding(org.apache.commons.io.IOUtilsWriteTestCase) (1 ms)</li><li>org.apache.commons.io.output.TeeOutputStreamTest.testTee(org.apache.commons.io.output.TeeOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_inputStreamToOutputStreamWithBufferSize(org.apache.commons.io.IOUtilsCopyTestCase) (12 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWriteLines_OutputStream_Encoding_nullSeparator(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWriteLines_OutputStream_nullData(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_readerToOutputStream_Encoding_nullEncoding(org.apache.commons.io.IOUtilsCopyTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_charSequenceToOutputStream_Encoding(org.apache.commons.io.IOUtilsWriteTestCase) (2 ms)</li><li>org.apache.commons.io.CopyUtilsTest.testCopy_readerToOutputStream(org.apache.commons.io.CopyUtilsTest) (1 ms)</li><li>org.apache.commons.io.CopyUtilsTest.testCopy_inputStreamToOutputStream(org.apache.commons.io.CopyUtilsTest) (1 ms)</li><li>org.apache.commons.io.CopyUtilsTest.copy_byteArrayToOutputStream(org.apache.commons.io.CopyUtilsTest) (10 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_stringToOutputStream_nullEncoding(org.apache.commons.io.IOUtilsWriteTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_readerToOutputStream(org.apache.commons.io.IOUtilsCopyTestCase) (3 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_charSequenceToOutputStream_nullEncoding(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsCopyTestCase.testCopy_readerToOutputStream_Encoding(org.apache.commons.io.IOUtilsCopyTestCase) (12 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_charArrayToOutputStream(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.output.TeeOutputStreamTest.testCloseMainIOException(org.apache.commons.io.output.TeeOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_charSequenceToOutputStream_Encoding_nullData(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_byteArrayToOutputStream_nullData(org.apache.commons.io.IOUtilsWriteTestCase) (1 ms)</li><li>org.apache.commons.io.CopyUtilsTest.copy_inputStreamToWriter(org.apache.commons.io.CopyUtilsTest) (1 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_stringToOutputStream_Encoding_nullData(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWriteLines_OutputStream_Encoding_nullData(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.CopyUtilsTest.copy_readerToWriter(org.apache.commons.io.CopyUtilsTest) (34 ms)</li><li>org.apache.commons.io.output.ProxyOutputStreamTest.testWrite(org.apache.commons.io.output.ProxyOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_stringToOutputStream_Encoding(org.apache.commons.io.IOUtilsWriteTestCase) (2 ms)</li><li>org.apache.commons.io.output.ProxyOutputStreamTest.testWriteNullBaSucceeds(org.apache.commons.io.output.ProxyOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWriteLines_OutputStream_Encoding(org.apache.commons.io.IOUtilsWriteTestCase) (2 ms)</li><li>org.apache.commons.io.CopyUtilsTest.copy_stringToWriter(org.apache.commons.io.CopyUtilsTest) (1 ms)</li><li>org.apache.commons.io.output.CountingOutputStreamTest.testLargeFiles_IO84(org.apache.commons.io.output.CountingOutputStreamTest) (68 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_charArrayToOutputStream_Encoding_nullData(org.apache.commons.io.IOUtilsWriteTestCase) (0 ms)</li><li>org.apache.commons.io.IOUtilsWriteTestCase.testWrite_charArrayToOutputStream_Encoding(org.apache.commons.io.IOUtilsWriteTestCase) (2 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

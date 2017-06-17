@@ -1,0 +1,263 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>ThresholdingOutputStream.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_92'>92</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_92'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ThresholdingOutputStream::checkThreshold &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_93'>93</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_93'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_94'>94</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_94'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>none</span></span> Replaced long addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_109'>109</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_109'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 128](org.apache.commons.io.output.DeferredFileOutputStreamTest)</span></span> removed call to org/apache/commons/io/output/ThresholdingOutputStream::checkThreshold &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_110'>110</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_110'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_111'>111</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_111'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 128](org.apache.commons.io.output.DeferredFileOutputStreamTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_128'>128</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_128'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest)</span></span> removed call to org/apache/commons/io/output/ThresholdingOutputStream::checkThreshold &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_129'>129</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_129'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest)</span></span> removed call to java/io/OutputStream::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_130'>130</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_130'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_143'>143</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_143'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>flush<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::flush &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_158'>158</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_158'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/io/output/ThresholdingOutputStream::flush &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_164'>164</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_164'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>none</span></span> removed call to java/io/OutputStream::close &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_178'>178</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_178'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getThreshold<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_189'>189</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_189'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getByteCount<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/io/output/ThresholdingOutputStream::getByteCount &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_202'>202</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_202'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isThresholdExceeded<br/><b>Killed by : </b>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 8](org.apache.commons.io.output.DeferredFileOutputStreamTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isThresholdExceeded<br/><b>Killed by : </b>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>isThresholdExceeded<br/><b>Killed by : </b>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_221'>221</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_221'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>checkThreshold<br/><b>Killed by : </b>org.apache.commons.io.output.ThresholdingOutputStreamTest.testSetByteCount(org.apache.commons.io.output.ThresholdingOutputStreamTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>checkThreshold<br/><b>Killed by : </b>org.apache.commons.io.output.ThresholdingOutputStreamTest.testSetByteCount(org.apache.commons.io.output.ThresholdingOutputStreamTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>checkThreshold<br/><b>Killed by : </b>org.apache.commons.io.output.ThresholdingOutputStreamTest.testSetByteCount(org.apache.commons.io.output.ThresholdingOutputStreamTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>checkThreshold<br/><b>Killed by : </b>org.apache.commons.io.output.ThresholdingOutputStreamTest.testSetByteCount(org.apache.commons.io.output.ThresholdingOutputStreamTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3ab599fa_224'>224</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3ab599fa_224'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>checkThreshold<br/><b>Killed by : </b>org.apache.commons.io.output.ThresholdingOutputStreamTest.testSetByteCount(org.apache.commons.io.output.ThresholdingOutputStreamTest)</span></span> removed call to org/apache/commons/io/output/ThresholdingOutputStream::thresholdReached &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 128](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 4](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 8](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 1](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 64](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 1](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 2](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 1,024](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 1,024](org.apache.commons.io.output.DeferredFileOutputStreamTest) (2 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 32](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 512](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 2,048](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 128](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 1,024](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 1](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 2,048](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 512](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 4](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 4](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 2,048](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 32](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 2](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 1](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 4,096](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 4,096](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 32](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 32](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 128](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 2](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 256](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 256](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 128](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 2](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 8](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 2,048](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 256](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 512](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 1,024](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 64](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 4](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 256](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 32](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.ThresholdingOutputStreamTest.testSetByteCount(org.apache.commons.io.output.ThresholdingOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 512](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 256](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 8](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 4,096](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 512](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 512](org.apache.commons.io.output.DeferredFileOutputStreamTest) (3 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 2](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 2,048](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 256](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 8](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 1,024](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 1](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 64](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 64](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 128](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 128](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 512](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 4,096](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 8](org.apache.commons.io.output.DeferredFileOutputStreamTest) (14 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 4](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 128](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 512](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 4,096](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 4,096](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 2,048](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 1,024](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 1,024](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 8](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 32](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 1](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 4](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 256](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 64](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 8](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 128](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 64](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 64](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 2](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 256](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 4](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 4](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 4,096](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 32](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToSmall[initialBufferSize = 2,048](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 8](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 1](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 2,048](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 4](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 1,024](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testThresholdReached[initialBufferSize = 64](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThreshold[initialBufferSize = 2](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 16](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 64](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 512](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 1](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 4,096](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 2](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAtThreshold[initialBufferSize = 8](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 1,024](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 256](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testBelowThreshold[initialBufferSize = 4,096](org.apache.commons.io.output.DeferredFileOutputStreamTest) (2 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 1](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 128](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileAboveThresholdPrefixOnly[initialBufferSize = 2](org.apache.commons.io.output.DeferredFileOutputStreamTest) (1 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testWriteToLarge[initialBufferSize = 2,048](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testTempFileBelowThreshold[initialBufferSize = 32](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li><li>org.apache.commons.io.output.DeferredFileOutputStreamTest.testAboveThreshold[initialBufferSize = 32](org.apache.commons.io.output.DeferredFileOutputStreamTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

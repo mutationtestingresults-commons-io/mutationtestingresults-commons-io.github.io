@@ -1,0 +1,173 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>StringBuilderWriter.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@48325bd0_63'>63</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@48325bd0_63'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@48325bd0_75'>75</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@48325bd0_75'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.io.output.StringBuilderWriterTest.testAppendChar(org.apache.commons.io.output.StringBuilderWriterTest)</span></span> mutated return of Object value for org/apache/commons/io/output/StringBuilderWriter::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@48325bd0_87'>87</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@48325bd0_87'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.io.output.StringBuilderWriterTest.testAppendCharSequence(org.apache.commons.io.output.StringBuilderWriterTest)</span></span> mutated return of Object value for org/apache/commons/io/output/StringBuilderWriter::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@48325bd0_101'>101</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@48325bd0_101'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.io.output.StringBuilderWriterTest.testAppendCharSequencePortion(org.apache.commons.io.output.StringBuilderWriterTest)</span></span> mutated return of Object value for org/apache/commons/io/output/StringBuilderWriter::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@48325bd0_128'>128</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@48325bd0_128'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.StringBuilderWriterTest.testWriteString(org.apache.commons.io.output.StringBuilderWriterTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@48325bd0_142'>142</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@48325bd0_142'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>write<br/><b>Killed by : </b>org.apache.commons.io.output.StringBuilderWriterTest.testWriteChar(org.apache.commons.io.output.StringBuilderWriterTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@48325bd0_153'>153</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@48325bd0_153'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getBuilder<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/io/output/StringBuilderWriter::getBuilder to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@48325bd0_163'>163</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@48325bd0_163'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.io.output.StringBuilderWriterTest.testAppendChar(org.apache.commons.io.output.StringBuilderWriterTest)</span></span> mutated return of Object value for org/apache/commons/io/output/StringBuilderWriter::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.io.output.StringBuilderWriterTest.testWriteCharArrayPortion(org.apache.commons.io.output.StringBuilderWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.appendChar(org.apache.commons.io.output.ProxyWriterTest) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLinesEncoding_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteByteArrayToFile_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWrite_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_4argsWithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testHttpContent(org.apache.commons.io.input.XmlStreamReaderTest) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_InputStream(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_4arg_nullSeparator(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.StringBuilderWriterTest.testAppendCharSequence(org.apache.commons.io.output.StringBuilderWriterTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteStringToFileWithEncoding_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testCopy_String_Writer(org.apache.commons.io.IOUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.output.StringBuilderWriterTest.testAppendConstructNull(org.apache.commons.io.output.StringBuilderWriterTest) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWrite_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_3arg_nullSeparator(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URL_CharsetNameNull(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URI_CharsetName(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.input.XmlStreamReaderTest.testRawContent(org.apache.commons.io.input.XmlStreamReaderTest) (1 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.writeStringPartial(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteStringToFile_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.writeCharArrayPartial(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URL_CharsetName(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URI(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_5argsWithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.StringBuilderWriterTest.testWriteChar(org.apache.commons.io.output.StringBuilderWriterTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URL(org.apache.commons.io.IOUtilsTestCase) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteStringToFileWithEncoding_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testFileUtils(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.output.StringBuilderWriterTest.testAppendConstructCapacity(org.apache.commons.io.output.StringBuilderWriterTest) (0 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToByteArray_String(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_4argsWithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.StringBuilderWriterTest.testAppendChar(org.apache.commons.io.output.StringBuilderWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.appendCharSequence_with_offset(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.writeInt(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteByteArrayToFile_WithOffsetAndLength_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_3argsWithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_5argsWithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (5 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testReadFileToStringWithEncoding(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.writeString(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteStringToFile_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.StringBuilderWriterTest.testWriteStringPortion(org.apache.commons.io.output.StringBuilderWriterTest) (0 ms)</li><li>org.apache.commons.io.output.StringBuilderWriterTest.testWriteCharArray(org.apache.commons.io.output.StringBuilderWriterTest) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteWithEncoding_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_3argsWithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileCleanerTestCase.testFileCleanerDirectory(org.apache.commons.io.FileCleanerTestCase) (603 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.writeCharArray(org.apache.commons.io.output.ProxyWriterTest) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteByteArrayToFile_WithOffsetAndLength_WithAppendOptionTrue_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.StringBuilderWriterTest.testAppendCharSequencePortion(org.apache.commons.io.output.StringBuilderWriterTest) (0 ms)</li><li>org.apache.commons.io.output.StringBuilderWriterTest.testAppendConstructStringBuilder(org.apache.commons.io.output.StringBuilderWriterTest) (0 ms)</li><li>org.apache.commons.io.output.StringBuilderWriterTest.testWriteString(org.apache.commons.io.output.StringBuilderWriterTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLinesEncoding_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_Reader(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testReadFileToStringWithDefaultEncoding(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testStringToOutputStream(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.IOUtilsTestCase.testToString_URI_CharsetNameNull(org.apache.commons.io.IOUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteLines_4arg(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li><li>org.apache.commons.io.output.ProxyWriterTest.appendCharSequence(org.apache.commons.io.output.ProxyWriterTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteWithEncoding_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (2 ms)</li><li>org.apache.commons.io.output.StringBuilderWriterTest.testClose(org.apache.commons.io.output.StringBuilderWriterTest) (0 ms)</li><li>org.apache.commons.io.FileUtilsTestCase.testWriteByteArrayToFile_WithAppendOptionFalse_ShouldDeletePreviousFileLines(org.apache.commons.io.FileUtilsTestCase) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>
